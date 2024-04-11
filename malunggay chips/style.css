@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.ytimg.com/vi/6wOi_UDmWto/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3Mu-4nFy0f9VObb9sf0afe7os-g"); /* Set background image URL */
+  background-size: cover; /* Ensures image covers the entire background */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-position: center; /* Centers the image horizontally */
+  display: flex; /* Use flexbox for vertical centering (optional) */
+  min-height: 100vh; /* Ensures viewport height (optional) */
+  justify-content: center; /* Vertically center content (optional) */
+  align-items: center; /* Horizontally center content (optional) */
+}
+
+
+
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+#see-more-btn {
+  background-color: Yellow;
+  padding: 1rem 2rem; /* Adjust padding for spacing as needed */
+  color: #333; /* Set text color to dark gray */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as an inline block element */
+  border: 1px solid #ddd; /* Add a thin gray border */
+  border-radius: 4px; /* Add rounded corners */
+  font-weight: bold; /* Make the text bold */
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+
+p {
+  margin-bottom: 0.5rem;
+  color: black; /* Light color for better contrast on background image */
+}
+
+a {
+  color: #333; /* Adjust color as needed */
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem; /* Adjust padding for better placement */
+  border: none; /* Remove button border (optional) */
+  background-color: transparent; /* Transparent background */
+}
+
+a:hover {
+  color: #000; /* Adjust hover color as needed */
+}
+
+img {
+  max-width: 100%; /* Remove inline image styles (optional) */
+  height: auto; /* Remove inline image styles (optional) */
+}
+
+/* Header Styles */
+header {
+  padding: 0; /* Remove header padding */
+  text-align: center;
+}
+
+.hero {
+  text-align: center; /* Can be removed, redundant */
+}
+
+/* Specific Styles (can be removed if not needed) */
+.recipe_list.html ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe_list.html li {
+  margin-bottom: 1rem;
+}
+
+#see-recipe-btn {
+  background-color: white;  /* Sets the background color to white */
+  padding: 1rem 2rem;        /* Adds padding for spacing within the button */
+  ...
+}
